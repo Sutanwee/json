@@ -1,0 +1,18 @@
+package json;
+
+import org.json.JSONObject;
+
+public class json_practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JSONObject obj = new JSONObject();
+		
+		obj.put("Name","Sutanwee");
+		obj.put("Location","Kolkata");
+		obj.put("Country","India");
+				
+		System.out.print(obj);
+	}
+
+}
